@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #354A53;
+}
+
+/* https://mycolor.space/?hex=%23455A64&sub=1 */
+.bg-primary {
+  background-color: #2E434C !important;
+}
+
+.text-primary {
+  color: #4CC3B6 !important;
+}
+
+a {
+  color: #BD5D38;
+}
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
+
+section.resume-section {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.social-icons a {
+  margin-right: 1.5rem;
+}
