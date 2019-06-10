@@ -24,9 +24,22 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-section.resume-section {
-  margin-left: 6em;
-  margin-right: 6em;
+@media (min-width: 768px) {
+  section.resume-section {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+}
+
+#home {
+  margin: 0;
 }
 
 .social-icons a {
